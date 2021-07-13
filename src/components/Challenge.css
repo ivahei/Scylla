@@ -1,0 +1,33 @@
+.text-div {
+  width: 100%;
+}
+.text-div ul li a {
+  color: #46aafa;
+  text-decoration-line: underline;
+}
+
+.pic-div {
+  width: 100%;
+  height: 100%;
+  max-width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.main-div,
+.main-div-second {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 100%;
+}
+.pic-div, .text-div {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.main-div-second {
+  flex-direction: column-reverse;
+  padding-top: 72px;
+}

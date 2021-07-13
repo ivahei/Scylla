@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import FirstDiv from './components/FirstDiv';
+import SecondDiv from './components/SecondDiv';
+import Challange from './components/Challange';
+import OurSolution from './components/OurSolution';
+import Customer from './components/Customer';
+import Footer from './components/Footer';
+
+import "./components/Header.css";
+import "./components/FirstDiv.css";
+import './components/Main.css'
+import './components/Challenge.css';
+import './components/Footer.css';
+import './responsive.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <FirstDiv />
+      <SecondDiv />
+      <Challange />
+      <OurSolution />
+      <Customer />
+      <Footer />
+   </>  
   );
 }
 

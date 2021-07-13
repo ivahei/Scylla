@@ -1,0 +1,22 @@
+.main {
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 1.6;
+  margin-top: 100px;
+}
+
+.main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main a {
+  color: #46aafa;
+  text-decoration-line: underline;
+}
+
+.main p {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  line-height: 1.8;
+}

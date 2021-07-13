@@ -1,13 +1,65 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+body {
+  color: white;
+  background-image: url("https://www.scylla.ai/static/3da5c3be998f7d7b3df5c82a563f2987/6833b/item-view.webp");
+  background-color: black;
+}
+
+h2,
+h3,
+h4 {
+  color: #46aafa;
+}
+h1 {
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+li::marker {
+  color: #46aafa;
+  
+}
+li {
+  padding-inline-start: 10px;
+  margin: 8px 0 8px 0;
+  font-size: 18px;
+  list-style-type: "✓";
+}
+
+ul {
+  padding-left: 14px;
+}
+
+html {
+  line-height: 1.5;
+  text-size-adjust: 100%;
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  touch-action: manipulation;
+}
+img{
+  width: 100%;
 }

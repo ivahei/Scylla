@@ -1,0 +1,132 @@
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2,
+  h3,
+  p,
+  li {
+    font-size: 18px;
+  }
+  .hikvision {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h3,
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  .firstDivIn {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .header-img {
+    width: 64px;
+  }
+  .get-a-quote-button-firstDiv {
+    width: 256px;
+  }
+  .text-div,
+  .main {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .pic-div {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .headerDefault,
+  .headerScroll {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header-img {
+    width: 80px;
+  }
+
+  .header-nav {
+    display: inline-block;
+  }
+
+  .side-button {
+    display: none;
+  }
+
+  .main-div,
+  .main-div-second {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .text-div {
+    width: 50%;
+  }
+
+  .pic-div {
+    width: 50%;
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+  .pic-div {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .main-footer {
+    padding: 24px 32px 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 94px;
+  }
+  p,
+  li {
+    font-size: 20px;
+  }
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  .headerDefault,
+  .headerScroll {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .header-nav a {
+    padding-inline: 16px;
+  }
+
+  .firstDivIn {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+  .main {
+    padding-left: 176px;
+    padding-right: 176px;
+  }
+
+  .main-div {
+    padding-left: 176px;
+  }
+  .main-div-second {
+    padding-right: 176px;
+  }
+  .main-footer {
+    padding: 24px 64px 16px;
+  }
+}
