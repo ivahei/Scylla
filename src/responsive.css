@@ -24,7 +24,7 @@
     font-size: 20px;
   }
 
-  .firstDivIn {
+  .mainInfoIn {
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -40,8 +40,14 @@
     padding-right: 32px;
   }
 
+  .main.costumer div {
+    padding-left: 24px;
+  }
   .pic-div {
     padding: 0;
+  }
+  .end {
+    flex-direction: row;
   }
 }
 
@@ -111,13 +117,13 @@
     padding-inline: 16px;
   }
 
-  .firstDivIn {
+  .mainInfoIn {
     padding-left: 192px;
     padding-right: 192px;
   }
   .main {
-    padding-left: 176px;
-    padding-right: 176px;
+    padding-left: 192px;
+    padding-right: 192px;
   }
 
   .main-div {
@@ -128,5 +134,8 @@
   }
   .main-footer {
     padding: 24px 64px 16px;
+  }
+  .main-footer ul {
+    justify-content: space-between;
   }
 }

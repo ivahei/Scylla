@@ -1,11 +1,11 @@
 const Customer = () => {
   return (
-    <div className="main">
-      <div>
+    <div>
+      <div className="main costumer">
         <h2>CUSTOMER TESTIMONIAL</h2>
         <br />
         <div>
-          <p>Ali Mohammed Al Barwani</p>
+          <p style={{color: "white"}}>Ali Mohammed Al Barwani</p>
           <p>Chief Information Officer</p>
           <br/>
           <p>Country: OMAN, MUSCAT</p>
@@ -13,9 +13,8 @@ const Customer = () => {
           <p>Deployment Facility: Muscat International Airport</p>
         </div>
       </div>
-      <div>
-        <h2>Your problem and Scylla’s solution</h2>
-        <br />
+      <div className="main problem">
+        <h3>Your problem and Scylla’s solution</h3>
         <div>
           <p>
             We have conducted tests alongside other solutions, as well as
@@ -25,11 +24,10 @@ const Customer = () => {
             meeting our requirements pertaining to technology, logistics, and
             product.
           </p>
-          <h2>
+          <h3>
             Describe specific points you are satisfied with the performance of
             the software and the relevant features
-          </h2>
-          <br />
+          </h3>
           <p>
             We like the product because of its: consistency, flexibility, and
             productivity. We conducted a statistical sampling and comparison of
@@ -41,12 +39,12 @@ const Customer = () => {
             be more productive by freeing up manpower that was originally used
             to manually take temperatures of incoming personnel into our sites.
           </p>
-          <h2>
+          <h3>
             P.S From Customer - A positive experience endorsement from a
             Globally respected company such as Oman Airport is invaluable to
             gaining confidence from other organizations who may not be familiar
             with Scylla.
-          </h2>
+          </h3>
         </div>
       </div>
     </div>

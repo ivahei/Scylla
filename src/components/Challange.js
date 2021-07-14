@@ -32,7 +32,7 @@ const Challange = () => {
             </li>
           </ul>
         </div>
-        <div className="pic-div"><img src="https://www.scylla.ai/static/a37572c0715309619e2387f25d37f39a/cc834/airplane.webp" /></div>
+        <div className="pic-div"><img src="https://www.scylla.ai/static/a37572c0715309619e2387f25d37f39a/cc834/airplane.webp" alt="Airplane"/></div>
       </div>
     )
 }

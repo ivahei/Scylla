@@ -1,13 +1,23 @@
 .main {
   padding-left: 16px;
   padding-right: 16px;
-  line-height: 1.6;
-  margin-top: 100px;
+  line-height: 1.7;
 }
 
-.main {
-  margin-top: 50px;
+.main.overview {
+  margin-top: 100px;
   margin-bottom: 50px;
+}
+
+.main.costumer {
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.main.costumer p{
+  font-size: 16px;
+  color: gray;
+  margin-top: 8px;
 }
 
 .main a {
@@ -15,8 +25,16 @@
   text-decoration-line: underline;
 }
 
-.main p {
+.main.overview p {
   padding-top: 32px;
   padding-bottom: 32px;
   line-height: 1.8;
+}
+
+.main h3 {
+  padding: 24px 0;
+}
+
+.main.problem p {
+  padding-bottom: 40px
 }

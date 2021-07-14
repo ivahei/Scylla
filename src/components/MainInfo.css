@@ -1,7 +1,6 @@
-.firstDiv {
+.mainInfo {
   background-image: url("https://www.scylla.ai/static/ea691a604e0ec2eeaf78b39bfbe41965/6833b/bg.webp");
   background-size: cover;
-  /* content: ''; */
   top: 0;
   left: 0;
   display: block;
@@ -15,7 +14,7 @@
   background-size: cover;
 }
 
-.firstDivIn {
+.mainInfoIn {
   width: 100%;
   height: 100%;
   padding-top: 180px;
@@ -55,10 +54,6 @@
   transition: 0.5s;
 }
 
-/* .firstDivIn h3 {
-  margin: 0;
-} */
-
-.firstDivIn p {
+.MainInfoIn p {
   margin-top: 5px;
 }

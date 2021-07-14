@@ -2,7 +2,7 @@ const OurSolution = () => {
   return (
     <div className="main-div-second">
       <div className="pic-div">
-        <img src="https://www.scylla.ai/static/08bbe4ba93a35c8b338891cf4b56eb76/cc834/temperature-screening.webp" />
+        <img src="https://www.scylla.ai/static/08bbe4ba93a35c8b338891cf4b56eb76/cc834/temperature-screening.webp" alt="Our Solution pic"/>
       </div>
       <div className="text-div">
         <h2>OUR SOLUTION</h2>

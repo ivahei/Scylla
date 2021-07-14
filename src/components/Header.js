@@ -3,20 +3,20 @@ import React, { useState, useEffect, useRef } from "react";
 const Header = () => {
   const [header, setHeader] = useState("");
   const [isOpenMenu, setIsOpenMenu] = useState(false);
-  
+
   const menuRef = useRef(null);
 
   useEffect(() => {
-      document.addEventListener('mousedown', handleOutsideClick);
+    document.addEventListener("mousedown", handleOutsideClick);
 
-      return () => document.removeEventListener('mousedown', handleOutsideClick);
-  }, []);
+    return () => document.removeEventListener("mousedown", handleOutsideClick);
+  });
 
   const handleOutsideClick = (event) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
       closeMenu();
     }
-  } 
+  };
 
   const listenScrollEvent = (event) => {
     if (window.scrollY < 60) {
@@ -25,7 +25,6 @@ const Header = () => {
       setHeader("headerScroll");
     }
   };
-
 
   const openMenu = () => {
     setIsOpenMenu(true);
@@ -48,6 +47,7 @@ const Header = () => {
       <img
         className="header-img"
         src="https://www.scylla.ai/static/7c2c2d6dccf829dae2225bdee0d513fa/578e8/icon.webp"
+        alt="logo"
       />
       <nav className="header-nav nav">
         <a>HOME</a>
@@ -61,7 +61,10 @@ const Header = () => {
 
       <div className="header-buttons">
         <button className="get-a-quote-button-header">GET A QUOTE</button>
-        <button className="side-button" onClick={openMenu}>
+        <button
+          className="side-button"
+          onClick={isOpenMenu ? closeMenu : openMenu}
+        >
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -80,6 +83,7 @@ const Header = () => {
           <img
             className="header-img"
             src="https://www.scylla.ai/static/7c2c2d6dccf829dae2225bdee0d513fa/578e8/icon.webp"
+            alt="Header Image"
           />
 
           <span className="close-btn" onClick={closeMenu}>

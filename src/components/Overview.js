@@ -1,6 +1,6 @@
-const SecondDiv = () => {
+const Overview = () => {
     return (
-        <div className="main">
+        <div className="main overview">
         <h2>OVERVIEW</h2>
         <p>
           <a>Scylla Thermal Screening </a>
@@ -14,4 +14,4 @@ const SecondDiv = () => {
     )
 }
 
-export default SecondDiv;
+export default Overview;
