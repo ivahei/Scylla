@@ -101,7 +101,7 @@ const Footer = () => {
               <img src={Twitter} alt="Twitter"/>
             </a>
             <a className="social" href="https://t.me/scylla_ai" target="_blank" rel="noreferrer">
-              <img src={telegram} alt="Telegram"style={{ opacity: 0.6 }} />
+              <img src={telegram} alt="Telegram"style={{ opacity: 0.6, marginRight: 0}}/>
             </a>
           </div>
           <div className="end-right">

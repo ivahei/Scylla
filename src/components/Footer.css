@@ -38,12 +38,6 @@
   line-height: 35px;
 }
 
-/* .line {
-  margin-top: 20px;
-  border-color: #46aafa;
-  height: 0.5px;
-} */
-
 .line {
   background-color: #46aafa;
   width: auto;
@@ -70,5 +64,5 @@
 width: 32px;
 height: 32px;
 margin-top: 16px;
-margin-right: 16px;
+margin-inline-end: 15px;
 }
